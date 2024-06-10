@@ -1,0 +1,633 @@
+html {
+    scrollbar-color: #D87400 #ebb353;
+    scrollbar-width: thin;
+  }
+
+main{
+    background-image: url(https://i.postimg.cc/2yK1XTcY/bgtop.png), linear-gradient(180deg, #000, #c99a63);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: "Open Sans";
+}
+
+header, .text-main, .details {
+    width: 80%;
+    margin-left: auto;
+    margin-right: auto;
+    color: white;
+    font-family: "Open Sans";
+}
+
+.myatinydatabase {
+    display: flex;
+    float: left;
+    margin-top: 4.5%;
+    margin-left: 1%;
+    font-size: 3em;
+    font-weight: bold;
+    font-family: MuseoModerno;
+}
+
+.logo {
+    display: flex;
+    float: left;
+    margin-top: 4%;
+    width: 5%;
+}
+
+.button {
+    float: right;
+    margin-top: -23%;
+    border-radius: 8px;
+    border-color: #000;
+    background-color: #000;
+    align-items: center;
+    padding: 14px 24px;
+    color: #fff;
+    font-family: "Open Sans";
+}
+
+.button:hover {
+    background-color: #c99a63;
+    color: #fff;
+}
+
+.button-su {
+    display: none;
+}
+
+.tittle-container {
+    padding-top: 13%;
+    justify-content: left;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 48px;
+    font-weight: bold;
+    line-height: 70px;
+    width: 713px;
+    height: 117px;
+    color: #000;
+}
+
+.you {
+    color: #fff;
+}
+
+.text1 {
+    margin: 0;
+    font-weight: bold;
+    color: #fff;
+}
+
+.text-container {
+    padding-top: 10%;
+    font-family: "Open Sans";
+    text-align: center;
+    font-size: 20px;
+    line-height: 166%;
+    display: flex;
+    width: 729px;
+    height: 214px;
+}
+
+.signupform {
+    margin-top: -14%;
+    float: right;
+    margin-right: 10%;
+    border-radius: 50px 0px 50px 0px;
+    width: 30%;
+    height: 340px;
+    background-color: rgb(0, 0, 0);
+}
+
+.get-started {
+    font-family: "Open Sans";
+    color: #D87400;
+    font-size: 24px;
+    text-align: center;
+    font-weight: bold;
+    margin: 5%;
+}
+
+.signup-box {
+    margin-left: 9%;
+    margin-bottom: 5%;
+    border-radius: 20px;
+    background-color: #fff;
+    width: 80%;
+    height: 44px;
+}
+
+.button1 {
+    margin-left: 9%;
+    margin-bottom: 5%;
+    border-radius: 8px;
+    background-color: #d87400;
+    width: 80%;
+    align-items: center;
+    padding: 14px 24px;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.button1:hover {
+    border-radius: 8px;
+    background-color: #ebb353;
+    width: 80%;
+    align-items: center;
+    padding: 14px 24px;
+    font-family: "Open Sans";
+    color: white;
+}
+
+.already-registered {
+    font-family: "Open Sans";
+    margin-left: 27%;
+}
+
+.loginlink {
+    color: #d87400;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
+.loginlink:hover {
+    color: #ebb353;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.t1 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: MuseoModerno;
+    margin-top: 15%;
+}
+
+.text2 {
+    margin-left: 40%;
+    font-size: 15px;
+    width: 60%;
+    font-weight: bold;
+}
+
+.t2 {
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: MuseoModerno;
+}
+
+.cs-bg{
+    border-radius: 20px;
+    background-color: #d87400;
+    width: 119px;
+    height: 25px;
+}
+
+.coming-soon {
+    margin-left: 1%;
+    margin-top: -1.5%;
+    font-size: 13px;
+    font-weight: bold;
+    color: #fff;
+    font-family: "Open Sans";
+}
+
+.t3 {
+    margin-top: 2%;
+    text-align: center;
+    color: #fff;
+    font-size: 36px;
+    font-weight: bold;
+    font-family: MuseoModerno;
+}
+
+.ca-bg {
+    margin-left: 37%;
+    border-radius: 8px;
+    background-color: #d87400;
+    width: 376px;
+    padding: 14px 24px;
+}
+
+.ca-bg:hover {
+    background-color: #c99a63;
+    color: #fff;
+}
+
+.createlink {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.createlink:hover {
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.buttons-icon {
+    display: inline-block;
+    margin-left: 20%;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+
+.buttons-icon1 {
+    display: inline-block;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.all-rights-reserved {
+    display: inline-block;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    margin-left: 40%;
+    color: #fff;
+    font-weight: bold;
+}
+
+@media screen and (max-width: 400px) {
+    .myatinydatabase {
+        display: flex;
+        float: left;
+        margin-top: 13%;
+        margin-left: 1%;
+        font-size: 1.60em;
+        font-weight: bold;
+        font-family: MuseoModerno;
+    }
+    
+    .logo {
+        display: flex;
+        float: left;
+        margin-top: 10%;
+        width: 15%;
+    }
+    
+    .button {
+        display: flex;
+        margin-top: 90%;
+        margin-right: 10%;
+        border-radius: 8px;
+        border-color: #000;
+        background-color: #000;
+        align-items: center;
+        padding: 24px;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+    
+    .button:hover, .button-su:hover {
+        background-color: #c99a63;
+        color: #fff;
+    }
+    
+    .button-su {
+        display: flex;
+        margin-left: 10%;
+        margin-top: 90%;
+        border-radius: 8px;
+        border-color: #000;
+        background-color: #000;
+        align-items: center;
+        padding: 24px;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+    
+    .tittle-container {
+        padding-top: 40%;
+        margin-left: 10%;
+        font-family: "Open Sans";
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 50px;
+        width: 80%;
+        color: #fff;
+    }
+
+    .you {
+        color: #D87400;
+    }
+
+    .text1 {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .text-container {
+        padding-top: 90%;
+        margin-left: 10%;
+        font-family: "Open Sans";
+        text-align: center;
+        font-size: 14px;
+        line-height: 166%;
+        display: flex;
+        width: 80%;
+    }
+
+    .signupform, .get-started, .signup-box, .button1, .already-registered, .loginlink{
+        display: none;
+    }
+
+    .t1 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+        margin-top: 15%;
+        text-align: center;
+    }
+    
+    .text2 {
+        margin-left: 10%;
+        font-size: 15px;
+        width: 80%;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .t2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+        text-align: center;
+    }
+    
+    .cs-bg{
+        border-radius: 20px;
+        background-color: #d87400;
+        margin-left: 30%;
+        width: 119px;
+        height: 25px;
+    }
+    
+    .coming-soon {
+        margin-left: 35%;
+        margin-top: -7%;
+        margin-bottom: 20px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+    
+    .t3 {
+        margin-top: 2%;
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+    }
+    
+    .ca-bg {
+        margin-left: 10%;
+        border-radius: 8px;
+        background-color: #d87400;
+        width: 80%;
+        padding: 14px 24px;
+    }
+    
+    .ca-bg:hover {
+        background-color: #c99a63;
+        color: #fff;
+    }
+    
+    .createlink {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .createlink:hover {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .buttons-icon {
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .buttons-icon1 {
+        display: inline-block;
+        margin-top: 10%;
+        width: 40px;
+        height: 40px;
+    }
+    .all-rights-reserved {
+        margin-left: 20%;
+        margin-top: 5%;
+        color: #fff;
+        font-weight: bold;
+    }
+
+}
+
+@media screen and (min-width: 401px) and (max-width:500px) {
+    .myatinydatabase {
+        display: flex;
+        float: left;
+        margin-top: 13%;
+        margin-left: 1%;
+        font-size: 1.75em;
+        font-weight: bold;
+        font-family: MuseoModerno;
+    }
+    
+    .logo {
+        display: flex;
+        float: left;
+        margin-top: 10%;
+        width: 15%;
+    }
+    
+    .button {
+        display: flex;
+        margin-top: 50%;
+        margin-right: 10%;
+        border-radius: 8px;
+        border-color: #000;
+        background-color: #000;
+        align-items: center;
+        padding: 24px;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+    
+    .button:hover, .button-su:hover {
+        background-color: #c99a63;
+        color: #fff;
+    }
+    
+    .button-su {
+        display: flex;
+        margin-left: 10%;
+        margin-top: 50%;
+        border-radius: 8px;
+        border-color: #000;
+        background-color: #000;
+        align-items: center;
+        padding: 24px;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+    
+    .tittle-container {
+        padding-top: 35%;
+        margin-left: 10%;
+        font-family: "Open Sans";
+        text-align: center;
+        font-size: 40px;
+        font-weight: bold;
+        line-height: 50px;
+        width: 80%;
+        color: #fff;
+    }
+
+    .you {
+        color: #D87400;
+    }
+
+    .text1 {
+        font-weight: bold;
+        color: #fff;
+    }
+
+    .text-container {
+        padding-top: 70%;
+        margin-left: 10%;
+        font-family: "Open Sans";
+        text-align: center;
+        font-size: 14px;
+        line-height: 166%;
+        display: flex;
+        width: 80%;
+    }
+
+    .signupform, .get-started, .signup-box, .button1, .already-registered, .loginlink{
+        display: none;
+    }
+
+    .t1 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+        margin-top: 15%;
+        text-align: center;
+    }
+    
+    .text2 {
+        margin-left: 10%;
+        font-size: 15px;
+        width: 80%;
+        font-weight: bold;
+        text-align: center;
+    }
+    
+    .t2 {
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+        text-align: center;
+    }
+    
+    .cs-bg{
+        border-radius: 20px;
+        background-color: #d87400;
+        margin-left: 35%;
+        width: 119px;
+        height: 25px;
+    }
+    
+    .coming-soon {
+        margin-left: 39%;
+        margin-top: -5.5%;
+        margin-bottom: 20px;
+        font-size: 13px;
+        font-weight: bold;
+        color: #fff;
+        font-family: "Open Sans";
+    }
+
+    .t3 {
+        margin-top: 2%;
+        text-align: center;
+        color: #fff;
+        font-size: 36px;
+        font-weight: bold;
+        font-family: MuseoModerno;
+    }
+    
+    .ca-bg {
+        margin-left: 10%;
+        border-radius: 8px;
+        background-color: #d87400;
+        width: 80%;
+        padding: 14px 24px;
+    }
+    
+    .ca-bg:hover {
+        background-color: #c99a63;
+        color: #fff;
+    }
+    
+    .createlink {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .createlink:hover {
+        text-align: center;
+        color: white;
+        font-weight: bold;
+        text-decoration: none;
+    }
+    
+    .buttons-icon {
+        display: inline-block;
+        margin-top: 10%;
+        margin-left: 40%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .buttons-icon1 {
+        display: inline-block;
+        margin-top: 10%;
+        width: 40px;
+        height: 40px;
+    }
+    
+    .all-rights-reserved {
+        margin-left: 25%;
+        margin-top: 5%;
+        color: #fff;
+        font-weight: bold;
+    }
+
+}
