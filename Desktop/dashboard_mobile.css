@@ -1,0 +1,230 @@
+body {
+    background: linear-gradient(180deg, #000, #c99a63);
+}
+
+.main {
+    height: 2150px;
+    width: 500px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-1-icon {
+    position: absolute;
+    top: 45px;
+    left: 40px;
+    width: 68px;
+    height: 83px;
+    object-fit: cover;
+}
+
+.collection-icon {
+  position: absolute;
+  top: 69px;
+  left: 155px;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+
+.collection-icon:hover {
+    content: url("../Imgs/IconAlbums_hover.png");
+    position: absolute;
+    top: 69px;
+    left: 155px;
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+  }
+
+.artist-icon {
+  position: absolute;
+  top: 67px;
+  left: 240px;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+
+.artist-icon:hover {
+    content: url("../Imgs/IconMicro_hover.png");
+    position: absolute;
+    top: 67px;
+    left: 240px;
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+  }
+
+.browse-icon {
+  position: absolute;
+  top: 67px;
+  left: 320px;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+
+.browse-icon:hover {
+    content: url("../Imgs/IconSearch_hover.png");
+    position: absolute;
+    top: 67px;
+    left: 320px;
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+  }
+
+.account-icon {
+  position: absolute;
+  top: 67px;
+  left: 400px;
+  width: 52px;
+  height: 52px;
+  object-fit: cover;
+}
+
+.account-icon:hover {
+    content: url("../Imgs/IconAccount_hover.png");
+    position: absolute;
+    top: 67px;
+    left: 400px;
+    width: 52px;
+    height: 52px;
+    object-fit: cover;
+  }  
+
+.dashboard-child {
+    position: absolute;
+    top: 166px;
+    left: 40px;
+    border-radius: 50px 0px 50px 0px;
+    background-color: #000;
+    width: 410px;
+    height: 1900px;
+}
+
+.dashboard-item {
+    position: absolute;
+    top: 239px;
+    left: 120px;
+    border-radius: 50px 0px 50px 0px;
+    background-color: #d87400;
+    width: 248px;
+    height: 272px;
+}
+
+.line-div {
+    position: absolute;
+    top: 573.5px;
+    left: 60px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 370px;
+    height: 1px;
+}
+
+.line-div2 {
+    position: absolute;
+    top: 1004.5px;
+    left: 60px;
+    border-top: 1px solid #fff;
+    box-sizing: border-box;
+    width: 370px;
+    height: 1px;
+}
+
+.add-file-icon {
+  position: absolute;
+  top: 286px;
+  left: 200px;
+  width: 90px;
+  height: 90px;
+  object-fit: cover;
+}
+
+.add-new {
+    margin: 0;
+}
+.add-new-photocard-container {
+    position: absolute;
+    top: 393px;
+    left: 190px;
+    font-size: 24px;
+    line-height: 150%;
+}
+
+.latest-addition {
+  position: absolute;
+  top: 606px;
+  left: 120px;
+  font-size: 35px;
+}
+
+.rectangle-div {
+    position: absolute;
+    top: 696px;
+    left: 120px;
+    border-radius: 50px 0px 50px 0px;
+    background: linear-gradient(180deg, #242424, #000);
+    width: 250px;
+    height: 257px;
+}
+
+.last-pc {
+  position: absolute;
+  top: 719px;
+  left: 180px;
+  width: 138px;
+  height: 206px;
+  object-fit: contain;
+}
+
+.news {
+  position: absolute;
+  top: 1038px;
+  left: 200px;
+  font-size: 35px;
+}
+
+.twitter {
+    position: absolute;
+    top: 1100px;
+    left: 35px;
+    width: 370px;
+    height: 500px;
+}
+
+.tiktok {
+    position: absolute;
+    top: 1630px;
+    left: 63px;
+    width: 370px;
+    height: 520px;
+}
+
+.buttons-icon {
+    position: absolute;
+    top: 2090px;
+    left: 75%;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.buttons-icon1 {
+    position: absolute;
+    top: 2090px;
+    left: 85%;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.all-rights-reserved {
+    position: absolute;
+    top: 2100px;
+    left: 10%;
+    color: #fff;
+    font-weight: bold;
+}

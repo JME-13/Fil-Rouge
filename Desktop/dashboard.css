@@ -1,0 +1,246 @@
+html {
+    scrollbar-color: #D87400 #ebb353;
+    scrollbar-width: thin;
+  }
+  
+body {
+    background: linear-gradient(180deg, #000, #c99a63);
+    background-position: left top;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    font-family: 'Kozuka Gothic Pro';
+}
+
+.main {
+    height: 1850px;
+    text-align: center;
+    color: #fff;
+}
+
+.logo-1-icon {
+  	position: absolute;
+  	top: 45px;
+  	left: 74px;
+  	width: 68px;
+  	height: 83px;
+  	object-fit: cover;
+}
+
+.collection-icon {
+	position: absolute;
+	top: 69px;
+	left: 800px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.collection-icon:hover {
+	content: url("../Imgs/IconAlbums_hover.png");
+	position: absolute;
+	top: 69px;
+	left: 800px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+
+.artist-icon {
+	position: absolute;
+	top: 67px;
+	left: 905px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.artist-icon:hover {
+	content: url("../Imgs/IconMicro_hover.png");
+	position: absolute;
+	top: 67px;
+	left: 905px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+
+.browse-icon {
+	position: absolute;
+	top: 67px;
+	left: 1000px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.browse-icon:hover {
+	content: url("../Imgs/IconSearch_hover.png");
+	position: absolute;
+	top: 67px;
+	left: 1000px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.account-icon {
+	position: absolute;
+	top: 67px;
+	left: 1715px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.account-icon:hover {
+	content: url("../Imgs/IconAccount_hover.png");
+	position: absolute;
+	top: 67px;
+	left: 1715px;
+	width: 52px;
+	height: 52px;
+	object-fit: cover;
+}
+
+.dashboard-child {
+  	position: absolute;
+  	top: 166px;
+  	left: 74px;
+  	border-radius: 50px 0px 50px 0px;
+  	background-color: #000;
+  	width: 1690px;
+  	height: 1550px;
+}
+
+.dashboard-item {
+  	position: absolute;
+  	top: 239px;
+  	left: 800px;
+  	border-radius: 50px 0px 50px 0px;
+  	background-color: #d87400;
+  	width: 248px;
+  	height: 272px;
+}
+
+.line-div {
+  	position: absolute;
+  	top: 573.5px;
+  	left: 230px;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 1400px;
+  	height: 1px;
+}
+
+.line-div2 {
+  	position: absolute;
+  	top: 1004.5px;
+  	left: 230px;
+  	border-top: 1px solid #fff;
+  	box-sizing: border-box;
+  	width: 1400px;
+  	height: 1px;
+}
+
+.add-file-icon {
+	position: absolute;
+	top: 286px;
+	left: 875px;
+	width: 90px;
+	height: 90px;
+	object-fit: cover;
+}
+
+.add-new {
+  	margin: 0;
+}
+.add-new-photocard-container {
+  	position: absolute;
+  	top: 393px;
+  	left: 863px;
+  	font-size: 24px;
+  	line-height: 150%;
+}
+
+.latest-addition {
+	position: absolute;
+	top: 606px;
+	left: 800px;
+  	font-size: 35px;
+}
+
+.rectangle-div {
+  	position: absolute;
+  	top: 696px;
+  	left: 800px;
+  	border-radius: 50px 0px 50px 0px;
+  	background: linear-gradient(180deg, #242424, #000);
+  	width: 250px;
+  	height: 257px;
+}
+
+.last-pc {
+	position: absolute;
+	top: 719px;
+	left: 860px;
+	width: 138px;
+	height: 206px;
+	object-fit: contain;
+}
+
+.news {
+	position: absolute;
+	top: 1038px;
+	left: 890px;
+ 	font-size: 35px;
+}
+
+.twitter {
+  	position: absolute;
+  	top: 1131px;
+  	left: 280px;
+  	width: 600px;
+  	height: 520px;
+}
+
+.twitter-timeline {
+	width: 558px;
+	height: 474px;
+	margin-left: 25px;
+}
+
+.tiktok {
+  	position: absolute;
+  	top: 1131px;
+  	left: 980px;
+  	width: 600px;
+  	height: 520px;
+}
+
+.buttons-icon {
+    position: absolute;
+    top: 1765px;
+    left: 77%;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.buttons-icon1 {
+    position: absolute;
+    top: 1765px;
+    left: 80%;
+    border-radius: 4px;
+    width: 40px;
+    height: 40px;
+    object-fit: cover;
+}
+.all-rights-reserved {
+    position: absolute;
+    top: 1770px;
+    left: 15%;
+    color: #fff;
+    font-weight: bold;
+}
